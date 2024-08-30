@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tnv-flux"
+version = "0.1.0"
+description = ""
+authors = ["jarda <jaroslav.vazny@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+tnv-flux = "tnv_flux.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
